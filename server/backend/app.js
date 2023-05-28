@@ -19,6 +19,9 @@ app.set('view engine','ejs');
 // Rutas del proyecto
 app.use('/', index);
 app.use('/users', users);
+app.use('/recuperar', (req, res) => {
+    res.render('recuperar');
+  });
 
 //Se ejecuta el servidor en el puerto establecido: "localhost:3000"
 app.listen(PORT, ()=>{
