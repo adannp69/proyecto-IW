@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <form class="gridLayout estructura">
+
+        <section class="grid-nested c1">
+            <h4>INICIAR SESIÓN</h4>
+        </section>
+
+
+        <section class="grid-nested c1">
+            <input  id="inputDatos"  type="email" name="email" id="email" placeholder="Ingresa tu email" pattern="^[A-Z]{1}[AEIOU]{1}[A-Z]{2}[0-9]{2}(0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-9]|3[0-1])[HM]{1}(AS|BC|BS|CC|CS|CH|CL|CM|DF|DG|GT|GR|HG|JC|MC|MN
+            |MS|NT|NL|OC|PL|QT|QR|SP|SL|SR|TC|TS|TL|VZ|YN|ZS|NE)[B-DF-HJ-NP-TV-Z]{3}[0-9A-Z]{1}[0-9]{1}$" required> 
+        </section>
+
+        <section class="grid-nested c1">
+            <input id="inputDatos" type="password" name="contraseña" id="contraseña" placeholder="Ingresa tu contraseña" required>
+        </section>
+
+
+        <div class="grid-nested c1" id="botonEnviar">
+            <input id="botonEnviar" type="submit" value="Enviar">
+        </div>
+        
+        <section class="grid-nested c2 caja">
+            <a href="crearCuenta.html">Crear cuenta</a>
+        </section>
+
+        <section class="grid-nested c3 caja">
+            <a href="recuperarCuenta.html">Recuperar cuenta</a>
+        </section>
+
+    </form>
+
+</body>
+</html>

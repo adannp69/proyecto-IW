@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosCrearCuenta.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <form class="gridLayout estructura">
+
+        <section class="grid-nested c1">
+            <h4>CREA UNA CUENTA</h4>
+        </section>
+
+        <section class="grid-nested c2">
+            <input  id="inputDatos" type="text" name="nombre" id="nombres" placeholder="Nombre" required> 
+        </section>
+
+        <section class="grid-nested c3">
+            <input  id="inputDatos" type="text" name="apellido" id="apellidos" placeholder="Apellido" required> 
+        </section>
+
+        <section class="grid-nested c1">
+            <input  id="inputDatos"  type="email" name="email" id="email" placeholder="Ingresa tu email" required> 
+        </section>
+
+        <section class="grid-nested c1">
+            <input id="inputDatos" type="password" name="contraseña" id="contraseña" placeholder="Contraseña nueva" required>
+        </section>
+
+        <section class="grid-nested c2">
+            <input id="inputDatos" type="date" name="fecha" id="contraseña" required> 
+        </section>
+
+        <!--
+        <section class="grid-nested c3">
+            <div class="caja">              
+                <input  type="radio" name="gender" id="hombre" required> Hombre
+                <input  type="radio" name="gender" id="mujer" required> Mujer
+            </div>
+        </section>
+        -->
+
+        <div class="grid-nested c1" id="botonEnviar">
+            <input id="botonEnviar" type="submit" value="Enviar">
+        </div>
+
+    </form>
+
+</body>
+</html>
